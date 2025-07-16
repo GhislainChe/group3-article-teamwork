@@ -22,7 +22,7 @@ body{
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .container .header h1{
@@ -39,4 +39,38 @@ body{
     /* text-transform: upperca; */
     text-align: center;
     font-weight: 500;
+}
+
+.container .header .buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 0;
+}
+
+.container .header .buttons button{
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: "DM Mono", monospace;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.container .header .buttons button:hover{
+    transform: scale(1.02);
+    background-color: #000000e7;
+}
+
+@media (max-width: 500px) {
+    .container .header .buttons{
+        display: flex;
+        flex-direction: column;
+    } 
 }
