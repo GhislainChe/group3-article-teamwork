@@ -84,7 +84,7 @@ body{
 
 .container .info-article{
     width: 100%;
-    max-width: 650px;
+    max-width: 900px;
     padding: 10px;
     margin: 0 auto;
     /* background-color: aqua; */
@@ -93,6 +93,7 @@ body{
 .container .info-article .ghislain{
     display: flex;
     flex-direction: column;
+    gap: 20px;
     width: 100%;
     justify-content: center;
 }
@@ -101,18 +102,20 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     width: 100%;
     height: 210px;
     /* background-color: red; */
     padding: 5px;
+    border-top-right-radius: 70px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
  }
 
 .container .info-article .ghislain .article .img{
-    width: 50%;
+    width: 70%;
     height: 100%;
     /* background-color: green; */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/environ.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(images/environ.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,12 +126,80 @@ body{
 .container .info-article .ghislain .article .info{
     /* height: 100px; */
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
-@media (max-width: 500px) {
+.container .info-article .ghislain .article .info h4{
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: 550;
+    color: rgb(128, 0, 128);
+}
+
+.container .info-article .ghislain .article .info h1{
+    font-size: 1.6em;
+    font-family: "DM Mono", monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+.container .info-article .ghislain .article .info p{
+    font-size: .8em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    color: rgb(37, 37, 37);
+}
+
+.container .info-article .ghislain .article .info button{
+    /* width: 20%; */
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #000000;
+    font-size: .7em;
+    text-transform: capitalize;
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    border: 1px solid #000000;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.container .info-article .ghislain .article .info button:hover{
+    transform: scale(1.02);
+    background-color: #0000001a;
+    border: 1px solid #000000;
+}
+
+@media (max-width: 610px) {
     .container .header .buttons{
         display: flex;
         flex-direction: column;
-    } 
+    }
+    
+    .container .info-article .ghislain .article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
+        height: fit-content;
+        /* background-color: red; */
+        padding: 5px 10px 10px 10px;
+        border-top-right-radius: 0px;
+     }
+
+    .container .info-article .ghislain .article .img{
+        width: 100%;
+        height: 200px;
+        /* background-color: green; */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(images/environ.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-right-radius: 0px;
+    }
 }
