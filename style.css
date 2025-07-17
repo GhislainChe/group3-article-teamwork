@@ -25,7 +25,7 @@ body{
     gap: 20px;
 }
 
-.container .header h1{
+.container .header .head{
     font-size: clamp(35px, 7vw, 3rem);
     font-family: "DM Mono", monospace;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 30px 0;
+    padding: 20px 5px 0 5px ;
 }
 
 .container .header .buttons button{
@@ -66,6 +66,26 @@ body{
 .container .header .buttons button:hover{
     transform: scale(1.02);
     background-color: #000000e7;
+}
+
+.container .header .season-change{
+    /* display: flex; */
+    width: 100%;
+    padding: 15px;
+    /* text-align: center; */
+}
+
+.container .header .season-change #change{
+    font-size: 2.1em;
+    font-family: monospace;
+    text-align: center;
+}
+
+.container .info-article{
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 auto;
 }
 
 @media (max-width: 500px) {
