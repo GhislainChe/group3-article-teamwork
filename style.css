@@ -74,3 +74,130 @@ body{
         flex-direction: column;
     } 
 }
+
+.valerie{
+    /* background-color: bisque; */
+    display: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120vh;
+    justify-content: space-between;
+    padding: 5%;
+
+}
+/* targeting the season heading */
+.season{
+    display: flex;
+    align-self: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: rgba(100, 8, 200, 0.6);
+    margin-bottom: 7%;
+}
+.image-div{
+    
+     width: 45%;
+     height:  0 auto;
+     border-top-right-radius: 30%;
+
+}
+img{
+
+
+    width: 100%;
+    height:100%;
+    border-top-right-radius: 30%;
+    margin-top: 2%;
+    margin-bottom: 3%; 
+    object-fit:fill;
+    
+    
+
+}
+img :hover{
+    transform: scale(1.5);
+}
+/* targetingm the the div containing season 5 and the div containig season 6 */
+.astronomy-div{
+     
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom:10% ;
+    
+
+}
+
+
+.Bio-diversity{
+    
+    margin-bottom:25% ;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 0%;
+    
+}
+/* tageting the two divs containing the text for the the two seasons 05 and 06 */
+.Text-div{
+display: flex;
+flex-direction: column;
+width: 60%;
+height: auto;
+padding: 0 20px;
+justify-content: flex-end;
+
+}
+/* tadgeting the head of the two dive (astronomy and nature and also biodiversity ) */
+.Text-div .p-head{
+    
+     font-size: clamp(35px, 7vw, 3rem);
+    font-family: "DM Mono", monospace;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom:2% ;
+    width: 60%;
+    
+     
+    
+    
+
+}
+/* the two paragraph carrying the text */
+.main-p{
+    
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-transform: upperca; */
+    text-align: left;
+    margin-bottom: 15%;
+    font-weight: 500;
+}
+.num{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+   color:rgba(100, 8, 200, 0.6);
+   margin-bottom: 1%;
+
+}
+
+
+
+.Read-more{
+    width: 13%;
+    padding: 1.2% 2.5% ;
+    position: absolute;
+
+    margin-top: 2%;
+ 
+}
+.Bio-diversity .main-p{
+    width: 100%;
+}
