@@ -106,12 +106,20 @@ body{
     /* background-color: aqua; */
 }
 
+/* #seasons2{
+    display: none;
+}
+
+#seasons3{
+    display: none;
+} */
+
 .container .news{
     display: flex;
     flex-direction: column;
     gap: 35px;
     width: 100%;
-    padding: 25px;
+    padding: 25px 5px;
     justify-content: left;
     align-items: left;
 }
@@ -215,11 +223,11 @@ footer h1{
     text-transform: uppercase;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .container .news .content{
         flex-direction: column;
         align-items: center;
-        height: fit-content;
+        height: auto;
     }
     .container .news .content .image1, 
     .container .news .content .image2{
