@@ -316,7 +316,6 @@ footer h1{
 
 
 
-<<<<<<< HEAD
     
 }
 
@@ -328,7 +327,6 @@ footer h1{
     width: 100%;
     justify-content:center;
     align-items: center;
-    z
     
 
 }
@@ -453,51 +451,5 @@ footer h1{
     }
     
 }
-=======
-
-    
-    .container .info-article .ghislain .article{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
-        width: 100%;
-        height: fit-content;
-        /* background-color: red; */
-        padding: 5px 10px 10px 10px;
-        border-top-right-radius: 0px;
-     }
-
-    .container .info-article .ghislain .article .img{
-        width: 100%;
-        height: 200px;
-        /* background-color: green; */
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(images/environ.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-top-right-radius: 0px;
-    }
-
-    .container .info-article .ghislain .article .img2 {
-        width: 100%;
-        height: 200px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(images/ocean.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-top-right-radius: 0px;
-    }
-
-    footer h1{
-        font-size: .9em;
-        font-family: monospace;
-        text-align: center;
-        color: #fff;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
->>>>>>> 069480caae0573529b74dc091b5e415aab1033fb
 
     
