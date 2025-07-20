@@ -18,8 +18,7 @@ season1.addEventListener("click", function() {
        seasons3.style.display = "none";
        season1.style.backgroundColor = "rgb(128, 0, 128)";
    } else {
-       seasons1.style.display = "none";
-       season1.style.backgroundColor = "";
+       seasons1.style.display = "block";
    }
 });
 
@@ -33,8 +32,7 @@ season2.addEventListener("click", function() {
        seasons3.style.display = "none";
        season2.style.backgroundColor = "rgb(128, 0, 128)";
    } else {
-       seasons2.style.display = "none";
-       season2.style.backgroundColor = "";
+       seasons2.style.display = "block";
    }
 });
 
@@ -48,7 +46,6 @@ season3.addEventListener("click", function() {
          seasons3.style.display = "block";
          season3.style.backgroundColor = "rgb(128, 0, 128)";
     } else {
-         seasons3.style.display = "none";
-         season3.style.backgroundColor = "";
+         seasons3.style.display = "block";
     }
 });

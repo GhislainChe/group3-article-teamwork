@@ -84,6 +84,10 @@ body{
     background-color: #000000e7;
 }
 
+.container .buttons button:nth-child(1){
+    background-color: rgb(128, 0, 128);
+}
+
 .container .season-change{
     /* display: flex; */
     width: 100%;
